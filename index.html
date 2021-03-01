@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Jogo Pedra Papel e Tesoura</title>
+</head>
+<body>
+    <header>
+        <h1>Pedra Papel Tesoura</h1>        
+    </header>
+    
+    <div class="placar">
+        <div id="usuario-vc" class="usuario">você</div>
+        <div id="usuario-pc" class="usuario">pc</div>
+        <span id="pontos-vc">0</span>:<span id="pontos-pc">0</span>
+    </div>
+        
+    <div class="resultado">
+        <p>O Papel cobre a Pedra. Você venceu!</p>
+    </div>
+
+    <div class="escolhas">
+        <div class="escolha" id="pd">
+            <img src="img/pedra.png" alt="">
+        </div>
+        <div class="escolha" id="pp">
+            <img src="img/papel.png" alt="">
+        </div>
+        <div class="escolha" id="tsr">
+            <img src="img/tesoura.png" alt="">
+        </div>
+    </div>
+
+    <p id="mensagem-jogada">Faça a sua jogada.</p>
+
+    <script src="app.js" charset="utf-8"></script>
+    
+</body>
+</html>
